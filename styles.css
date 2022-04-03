@@ -289,17 +289,22 @@ p.nft-details {
         }
     
         .nft-card {
-            width: 310px;
+            width: 280px;
             margin: 50px auto 50px auto;
-    
         }
-    
+        img.artwork{
+            width: 260px;
+        }
+        img.nft-artwork-view {
+            top: 153px;
+            left: 142px;
+        }
         .nft-card-elements {
-            width: 310px;
+            width: 260px;
         }
     
         .artwork-wrapper {
-            width: 310px;
+            width: 260px;
         }
 
         .nft-price-time-flex{
@@ -307,7 +312,7 @@ p.nft-details {
         }
     
         .attribution {
-            width: 240px;
+            width: 260px;
             text-align: center;
             padding: 0;
         }
