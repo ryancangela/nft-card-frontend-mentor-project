@@ -35,6 +35,28 @@ body {
     font-family: var(--font);
 }
 
+@media only screen and (max-width: 768px) {
+body{
+    width: 100%;
+}
+
+.nft-card{
+    width: 300px;
+    margin: 50px auto 50px auto;
+
+}
+
+.nft-card-elements {
+    width: 300px;
+}
+
+.artwork-wrapper{
+    width: 275px;
+}
+
+
+}
+
 .nft-card{
     width: 325px;
     height: auto;
