@@ -35,6 +35,21 @@ body {
   font-family: var(--font);
 }
 
+body::-webkit-scrollbar {
+  width: 8px; /* width of the entire scrollbar */
+  height: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #0d192b; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #00fff730; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid #0d192b; /* creates padding around scroll thumb */
+}
+
 .nft-card {
   width: 325px;
   height: 325px;
@@ -47,7 +62,7 @@ body {
   filter: drop-shadow(0 7px 20px #0d192b40);
   border: 2px solid #0d192b30;
   transition: all ease;
-  animation: load-nft-artwork 2s ease-in-out 0.5s 1 normal forwards;
+  animation: load-nft-artwork 2.25s ease-in-out 0.5s 1 normal forwards;
 }
 
 .nft-card-elements {
@@ -72,10 +87,10 @@ body {
   border-radius: 12px;
   margin-bottom: 30px;
   width: 325px;
-  opacity: 0;
-  background-color: hsl(178, 100%, 50%);
-  animation: load-information-details 1s ease-in-out 0s normal forwards;
-  animation-delay: 1.5s;
+  opacity: 1;
+  background-color: #00fff7;
+
+  animation-delay: 0.5s;
   animation-duration: 0.75s;
 }
 .artwork-wrapper::before {
