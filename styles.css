@@ -407,9 +407,6 @@ p.nft-details {
   animation: load-information-details 2s ease-in-out 2s normal forwards;
 }
 
-.shift {
-}
-
 @keyframes load-nft-artwork {
   /* 0% {
     height: 325px;
